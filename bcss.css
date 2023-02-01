@@ -1,0 +1,39 @@
+#log {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: white;
+    position: relative;
+    border-radius: 3px;
+}
+label {
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"], input[type="Password"] {
+    width: 398px;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    background-color: lavender;
+    border-radius: 5px;
+    cursor: auto;
+}
+#button {
+    width: 398px;
+    background-color: purple;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#button {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: medium;
+}
