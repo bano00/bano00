@@ -1,0 +1,22 @@
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        margin: 0px;
+        width: 100%;
+        background-color: #262626;
+        }
+    p{
+        font-size: 8px;
+        line-height: 6px;
+        background:url(1675347473510.jpg);
+        background-position: center;
+        -webkit-background-clip:text;
+        background-attachment: fixed;
+        -webkit-text-fill-color:rgba(255,255,255,0);
+        text-align: justify;
+        }
+
+  
+
