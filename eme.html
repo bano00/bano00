@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+    <title>iloveyouverymuch</title>
+    <link rel="stylesheet" type="text/css" href="lyrics.css">
+</head>
+<body>
+    <button id="lyrics" onclick="Lyrics()">Bano
+    </button>
+    <form action="">
+        <input type="text" id="url" name="url" class="love" placeholder="Say iloveyouvermuch...">
+      </form>
+      <script>
+        document.querySelector("form").addEventListener("submit", function(event) {
+          event.preventDefault();
+          var url = document.querySelector("input[name='url']").value;
+          if (url === "iloveyouverymuch") {
+          alert("iloveyouverymuch!");
+          window.location.href = "Bano.html";
+        }});
+        function Lyrics() {
+          alert (iloveyouverymuch);
+          window.location.href = "bano.html"
+        }
+      </script>
+</body>
