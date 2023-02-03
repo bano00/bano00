@@ -7,7 +7,7 @@ var username = document.getElementById("Username").value;
 var password = document.getElementById("Password").value;
 if (username === "Bitch" && password === "Bano") {
     alert("Login Successful!");
-    window.location.href = "Bano.html";
+    window.location.href = "eme.html";
 } else {
     remainingAttempts--;
     if (remainingAttempts === 0) {
